@@ -3,7 +3,7 @@
 有些知识点需要重新记下。
 *  const int & ptr
 *  int & ptr
-*  int ptr
+*  int ptr <br>
 这三者的区别，本来界限很清晰。后来写着写着代码就有点迷惑了。
 ### int ptr
 这个是最清楚的了，在传参的时候使用的是复制的方式。
@@ -23,7 +23,6 @@ int add(int &x, int& y)
 {
     return x + y;
 }
-
 int main()
 {
     add(srand(), srand());
