@@ -9,20 +9,17 @@ categories: essay
 
 在学习计算机技术方面还是要使用Google作为第一搜索引擎。下面讲述一种翻墙方式。
 修改hosts翻墙是众多翻墙方式中比较简单的方式，而且不会因第三方的再次传输而造成延迟。
-在linux系统中，修改hosts是最简单的，将已经下载好的hosts文件放到/etc/下就可以了。<b>
+在linux系统中，修改hosts是最简单的，将已经下载好的hosts文件放到/etc/下就可以了。
   
 `sudo mv hosts /etc/`
-<b>
   
 Android 系统中修改hosts文件需要对手机进行Root提权限，网上有很多软件这里不再说明。Android 系统的hosts 文件路径依然是/etc/， 因为android系统也是基于linux内核进行开发的。可以下载一个RE文件浏览器进行文件的复制。
 ###注意事项：
 有的网友把文件复制到Android中依然没有效果，这里可能的原因是因为编码的问题。
 linux系统中默认的编码方式是UTF-8,而在android中hosts文件是ascii编码方式。
 把hosts文件从linux复制到android中需要进行一次转码。
-在linux中转码操作很简单<b>
+在linux中转码操作很简单
   
 `iconv -f utf-8 -t ascii -c hosts1 -o hosts2`
-<b>
-  
   
 这样将文件1转码为ascii的文件2。
