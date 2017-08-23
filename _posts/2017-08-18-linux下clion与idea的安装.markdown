@@ -5,8 +5,9 @@ date:   2017-08-18 01:01:00
 categories: essay
 ---
 
-## 下载安装包<b>
-Clion和Idea是同一家公司出品的软件，该家公司的软件以精品著称。所有的软件都可以到[官网](www.jetbrains.com) 上进行下载。
+## JetBranins<b>
+JetBrains是一家捷克的软件开发公司，该公司位于捷克的布拉格。
+Clion和Idea就是该公司出品的软件，该家公司的软件以精品著称。所有的软件都可以到[官网](https://www.jetbrains.com) 上进行下载。
 
 ## Clion和Idea
 在Linux下用于进行c++开发的集成环境很少，很多都是使用文本编辑器和编辑器进行开发。开发的速度相对来说有待提高。
