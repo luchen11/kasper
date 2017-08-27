@@ -9,7 +9,7 @@ extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "w
 highlighter: rouge
 logo: true
 paginate: 20
-baseurl: luchen11.site
+baseurl: \
 domain_name: 'https://luchen11.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
