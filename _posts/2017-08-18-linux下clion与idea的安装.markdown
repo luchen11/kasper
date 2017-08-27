@@ -15,6 +15,7 @@ codeblock 在做大的项目上，有很多的功能不够完善，Clion的出�
 例如:
 
 > 1 不能够选择编译器，Clion自动到/usr/bin/下寻找gcc/g++,不能指定特定的编译器，比如clang。
+
 > 2 编译器不能够添加编译选项，选项的内容可以在cmake文件中添加。可能这是一个功能，而不是bug。
 
 linux下java的IDE以前也有，比较著名的Eclipse与MyEclipse。Idea不仅可以进行java的编写，也可以进行Android的开发。
